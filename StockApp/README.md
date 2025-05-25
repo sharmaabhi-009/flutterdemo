@@ -14,10 +14,8 @@ The Stock App is a live stock tracking application built with Flutter. It allows
 ## 🔧 Tech Stack
 
 - **Frontend:** Flutter
-- **Backend:** Dart & Flutter
-- **Real-time Messaging:** Socket.IO
 - **Messaging Middleware:** Solace PubSub+, MQTT
-- **Database:** None (lightweight, in-memory delivery)
+
 
 ---
 
@@ -53,30 +51,13 @@ Follow these steps to run the app locally:
 ### ✅ 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Tanendra77/Stock-APP---Flutter.git
-cd Stock-APP---Flutter
+git clone https://github.com/sharmaabhi-009/flutterdemo.git
+cd StockApp
 ---
 ```
 ⚙️ Configuration:
-Solace Client Connection Details (Make Sure Both are same)
+Solace Broker Connection Details (Make Sure Both are same)
 ```env
-# Canada Server - admin/admin
-
-# SOLACE_USERNAME=admin
-# SOLACE_PASSWORD=admin
-# SOLACE_URL=http://mr-connection-6ne3htd4xcm.messaging.solace.cloud:8883
-# SOLACE_HOST=mr-connection-6ne3htd4xcm.messaging.solace.cloud
-
-
-
-# Mumbai Server UIC acc -> service-1
-
-# SOLACE_URL=wss://mr-connection-m7ckf6qh9f7.messaging.solace.cloud:8883
-# SOLACE_VPN=service-1
-# SOLACE_HOST=mr-connection-m7ckf6qh9f7.messaging.solace.cloud
-# SOLACE_USERNAME=solace-cloud-client
-# SOLACE_PASSWORD=gsoaspfqqnoupoo97d0osiufbl
-
 
 # London Server - admin/admin
 
