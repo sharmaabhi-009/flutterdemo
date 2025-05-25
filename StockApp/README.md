@@ -61,10 +61,10 @@ Solace Broker Connection Details (Make Sure Both are same)
 
 # London Server - admin/admin
 
-SOLACE_USERNAME=admin
-SOLACE_PASSWORD=admin
-SOLACE_URL=ssl://mr-connection-ycul43t2mik.messaging.solace.cloud:8883
-SOLACE_HOST=mr-connection-ycul43t2mik.messaging.solace.cloud
+SOLACE_USERNAME=**************
+SOLACE_PASSWORD=**********************
+SOLACE_URL=*********************************
+SOLACE_HOST=******************************
 
 ```
 
